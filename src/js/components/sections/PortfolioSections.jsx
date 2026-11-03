@@ -56,7 +56,7 @@ export function GoalsSection() {
           <span className="goal__number">C / BƯỚC TIẾP THEO</span>
           <h3>Tìm cơ hội thực tập<br />tại TP. Hồ Chí Minh.</h3>
           <p>Mong muốn học quy trình làm game thực tế, tích lũy kinh nghiệm làm việc nhóm và phát triển kỹ năng chuyên môn trong ngành.</p>
-          <a href="https://github.com/Do-Thien-Loc" target="_blank" rel="noreferrer" aria-label="Mở GitHub để trao đổi về cơ hội thực tập"><ArrowUpRight size={22} aria-hidden="true" /></a>
+          <a href="https://github.com/meme-free" target="_blank" rel="noreferrer" aria-label="Mở GitHub để trao đổi về cơ hội thực tập"><ArrowUpRight size={22} aria-hidden="true" /></a>
         </article>
       </div>
     </section>
@@ -174,10 +174,10 @@ export function ProjectsSection() {
             <PortfolioVisual />
             <div className="project__body">
               <div className="project__meta"><span>02 / WEB PROJECT</span><span>2025</span></div>
-              <h3>Portfolio nhóm 8</h3>
-              <p>Portfolio cá nhân được lưu trong repository LapTrinhWeb_Group8. Mình sẽ bổ sung mô tả và công nghệ sau khi repository có thông tin xác nhận.</p>
+              <h3>Portfolio cá nhân</h3>
+              <p>Website portfolio cá nhân giới thiệu thông tin, kỹ năng, định hướng và các dự án của mình.</p>
               <div className="project__tags"><span>Stack chưa xác minh</span><span>Portfolio web</span></div>
-              <ProjectLink href="https://github.com/Lacky2006/LapTrinhWeb_Group8">Xem mã nguồn</ProjectLink>
+              <ProjectLink href="https://github.com/meme-free/PORTFOLIO">Xem mã nguồn</ProjectLink>
             </div>
           </article>
         </div>
@@ -213,8 +213,8 @@ export function ContactSection() {
         <div className="section-marker section-marker--light"><span>07</span><span>LIÊN HỆ</span></div>
         <p className="eyebrow eyebrow--dark">SẴN SÀNG HỌC HỎI VÀ BẮT ĐẦU</p>
         <h2 id="contact-title">Cùng làm nên<br /><em>một trò chơi hay?</em></h2>
-        <a className="contact__button" href="https://github.com/Do-Thien-Loc" target="_blank" rel="noreferrer">Ghé GitHub <ArrowUpRight size={20} aria-hidden="true" /></a>
-        <div className="contact__details"><a href="https://github.com/Do-Thien-Loc" target="_blank" rel="noreferrer"><Github size={16} aria-hidden="true" /> GitHub <ArrowRight size={14} aria-hidden="true" /></a><span>Sinh viên CNTT · TP. Hồ Chí Minh</span></div>
+        <a className="contact__button" href="https://github.com/meme-free" target="_blank" rel="noreferrer">Ghé GitHub <ArrowUpRight size={20} aria-hidden="true" /></a>
+        <div className="contact__details"><a href="https://github.com/meme-free" target="_blank" rel="noreferrer"><Github size={16} aria-hidden="true" /> GitHub <ArrowRight size={14} aria-hidden="true" /></a><span>Sinh viên CNTT · TP. Hồ Chí Minh</span></div>
       </div>
     </section>
   );

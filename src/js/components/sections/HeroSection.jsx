@@ -36,7 +36,7 @@ function HeroSection() {
           </p>
           <div className="hero__actions" data-hero-reveal>
             <a className="button button--primary" href="#projects">Khám phá dự án <ArrowDownRight size={18} aria-hidden="true" /></a>
-            <a className="text-link" href="https://github.com/Do-Thien-Loc" target="_blank" rel="noreferrer">Kết nối GitHub <ArrowUpRight size={16} aria-hidden="true" /></a>
+            <a className="text-link" href="https://github.com/meme-free" target="_blank" rel="noreferrer">Kết nối GitHub <ArrowUpRight size={16} aria-hidden="true" /></a>
           </div>
           <div className="hero__location" data-hero-reveal>
             <MapPin size={15} aria-hidden="true" />

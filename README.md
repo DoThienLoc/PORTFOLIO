@@ -61,6 +61,6 @@ src/
 
 ## Liên hệ
 
-GitHub: [Do-Thien-Loc](https://github.com/Do-Thien-Loc)
+GitHub: [meme-free](https://github.com/meme-free)
 
 > Form liên hệ hiện kiểm tra dữ liệu và tạo nội dung để sao chép; cần tích hợp dịch vụ gửi form hoặc backend nếu muốn gửi tự động.
