@@ -40,6 +40,14 @@ npm run build
 npm run preview
 ```
 
+## Deploy lên GitHub Pages
+
+Workflow trong `.github/workflows/deploy.yml` tự build và deploy lên GitHub Pages mỗi khi có thay đổi được push lên `main`. Sau lần chạy thành công đầu tiên, trang sẽ có tại:
+
+https://meme-free.github.io/PORTFOLIO/
+
+Trong repository, đặt **Settings → Pages → Build and deployment → Source** thành **GitHub Actions** nếu chưa được cấu hình.
+
 ## Cấu trúc chính
 
 ```text
