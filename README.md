@@ -2,73 +2,58 @@
 
 Portfolio cá nhân giới thiệu hành trình học tập, kỹ năng, dự án và định hướng nghề nghiệp của Đỗ Thiên Lộc, sinh viên Công nghệ thông tin đang hướng đến vị trí Game Developer.
 
-## Giới thiệu
-
-- Sinh viên năm 3 ngành Công nghệ thông tin tại Trường Đại học Giao thông Vận tải TP. Hồ Chí Minh.
-- Quê ở Đồng Nai, hiện học tập tại TP. Hồ Chí Minh.
-- Đang tìm cơ hội thực tập Game Developer.
-
 ## Nội dung
 
-- Giới thiệu bản thân và mục tiêu nghề nghiệp.
-- Kỹ năng chuyên môn: HTML, CSS, Python, Unity và Git/GitHub.
-- Học vấn và các mốc thực hành từ năm 2024 đến 2026.
-- Dự án NetTra và portfolio cá nhân.
-- Chứng chỉ, sở thích và thông tin liên hệ.
+- Giới thiệu bản thân và định hướng nghề nghiệp.
+- Kỹ năng, các mốc học tập và dự án cá nhân.
+- Sở thích và thông tin liên hệ.
+- Giao diện responsive, menu điều hướng trên thiết bị di động, hiệu ứng xuất hiện khi cuộn và thanh tiến trình cuộn trang.
 
 ## Công nghệ
 
-- React 19 và Vite.
-- React Bits `SplitText` cho hiệu ứng tiêu đề.
-- GSAP và ScrollTrigger cho hiệu ứng xuất hiện khi cuộn.
-- Lucide React cho biểu tượng.
-- CSS responsive với hỗ trợ giao diện sáng/tối.
+- HTML
+- CSS
+- JavaScript thuần
 
-## Chạy dự án
+Không cần cài package hay chạy bước build.
 
-Yêu cầu Node.js và npm.
+## Chạy trên máy
+
+Có thể mở `index.html` trực tiếp bằng trình duyệt. Để xem qua máy chủ web cục bộ, chạy lệnh sau tại thư mục dự án:
 
 ```bash
-npm ci
-npm run dev
+npx serve .
 ```
 
-Tạo bản build production và chạy thử bản build:
+Sau đó mở địa chỉ mà lệnh hiển thị. Google Fonts cần kết nối Internet; nếu không có kết nối, trang sẽ dùng font dự phòng.
 
-```bash
-npm run build
-npm run preview
+## Cấu trúc dự án
+
+```text
+index.html
+css/
+  style.css
+js/
+  main.js
+images/
+  portrait.jpg
 ```
 
 ## Deploy lên GitHub Pages
 
-Workflow trong `.github/workflows/deploy.yml` tự build và deploy lên GitHub Pages mỗi khi có thay đổi được push lên `main`. Sau lần chạy thành công đầu tiên, trang sẽ có tại:
+Trang tĩnh có thể được phục vụ trực tiếp từ repository:
 
-https://meme-free.github.io/PORTFOLIO/
+1. Mở **Settings → Pages**.
+2. Trong **Build and deployment**, chọn **Deploy from a branch**.
+3. Chọn branch `main` và thư mục `/(root)`, sau đó lưu.
+4. Chờ GitHub Pages hoàn tất deploy. Trang sẽ có tại:
 
-Trong repository, đặt **Settings → Pages → Build and deployment → Source** thành **GitHub Actions** nếu chưa được cấu hình.
+   https://meme-free.github.io/PORTFOLIO/
 
-## Cấu trúc chính
+Các link tới CSS, JavaScript và ảnh dùng đường dẫn tương đối để hoạt động dưới đường dẫn project page của GitHub Pages.
 
-```text
-index.html
-public/
-  images/
-    portrait.jpg
-src/
-  css/
-    index.css
-  js/
-    AppShell.jsx
-    main.jsx
-    components/
-      sections/
-    data/
-      portfolio.js
-```
+## Liên kết
 
-## Liên hệ
-
-GitHub: [meme-free](https://github.com/meme-free)
-
-> Form liên hệ hiện kiểm tra dữ liệu và tạo nội dung để sao chép; cần tích hợp dịch vụ gửi form hoặc backend nếu muốn gửi tự động.
+- GitHub: https://github.com/meme-free
+- Dự án NetTra: https://github.com/meme-free/NetTra---Network-traffic-Analyzer
+- Mã nguồn portfolio: https://github.com/meme-free/PORTFOLIO
